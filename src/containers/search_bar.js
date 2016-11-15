@@ -30,7 +30,7 @@ export default class SearchBar extends Component {
 					<input 
 						type="text" 
 						className="form-control" 
-						placeholder="Get a five-day forecast in your favorite cities"
+						placeholder="Get a five-day forecast in your favorite U.S. cities"
 						value={this.state.term}
 						onChange={this.onInputChange}
 					/>
