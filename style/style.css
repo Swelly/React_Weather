@@ -1,0 +1,9 @@
+form {max-width: 480px; margin:0 auto;}
+
+.form-group {position: relative;}
+
+.form-group > button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
