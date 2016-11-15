@@ -1,9 +1,13 @@
-form {max-width: 480px; margin:0 auto;}
+form {max-width: 480px; margin:10px auto 0;}
 
 .form-group {position: relative;}
 
-.form-group > button {
+.form-group > .btn-default {
 	position: absolute;
-	top: 0;
+	top: 1px;
 	right: 0;
+    border-radius: 0 0;
+    background-color: #fff;
+    outline: 1px solid #d9d9d9;
+	padding: 7px 15px;
 }
