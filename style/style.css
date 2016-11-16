@@ -12,4 +12,8 @@ form {max-width: 480px; margin:10px auto 0;}
 	padding: 7px 15px;
 }
 
+td, th {
+	vertical-align: middle !important;
+	text-align: center !important;
+}
 th {width: 300px;}
