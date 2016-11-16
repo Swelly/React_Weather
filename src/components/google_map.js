@@ -5,7 +5,7 @@ import { withGoogleMap, GoogleMap } from 'react-google-maps';
 const SimpleGoogleMap = withGoogleMap(props => (
   <GoogleMap
     defaultZoom={8}
-    defaultCenter={{ lat: props.lat, lng: props.lon }}
+    defaultCenter={{ lat: parseFloat(props.lat), lng: parseFloat(props.lon) }}
   />
 ));
 
